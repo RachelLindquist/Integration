@@ -1,0 +1,4 @@
+The python_exe folder goes in the main folder, in this case SeniorDesign
+The other files go in Assets. I'm not 100% sure how Unity works but just make sure
+to connect RunAndDisplayImage.cs to one of the artworks and include "test" as the imageName.
+Python creates a test.jpg image, I've set the name to be a variable for when we make multiple images
