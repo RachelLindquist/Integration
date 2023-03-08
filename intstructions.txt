@@ -1,4 +1,3 @@
-The python_exe folder goes in the main folder, in this case SeniorDesign
-The other files go in Assets. I'm not 100% sure how Unity works but just make sure
-to connect RunAndDisplayImage.cs to one of the artworks and include "test" as the imageName.
-Python creates a test.jpg image, I've set the name to be a variable for when we make multiple images
+Copy scripts and plugins folder into the assets. Tie makeImages.cs to an AI art block and give it a prompt. 
+Tie displayImage.cs to each of the 3 AI Art block and give the inputs image1.jpg, image2, jpg, and image3.jpg.
+Make a new folder in Assets called StreamingAssets and unzip then copy the python folder into there. 
